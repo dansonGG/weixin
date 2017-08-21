@@ -1,0 +1,325 @@
+body{
+    font-family: 'Microsoft YaHei', sans-serif;
+    min-width: 375px;
+}
+.mai-icon{
+    background: rgb(64, 210, 177);
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+}
+.navbar-default{
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25);
+}
+.navbar-default .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: #40D2B1;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-toggle{
+    margin-top: 17px;
+}
+.navbar-default .navbar-toggle:hover {
+    border-color: #40D2B1;
+    background-color: rgb(69, 210, 184);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #1C9982;
+}
+/*home*/
+#home{
+    margin-top: 70px;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+.lvjing{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    padding: 100px;
+
+}
+#home h1{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#home p{
+    font-weight: 400;
+    line-height: 35px;
+}
+#home img{
+    width: 1680px;
+    height: 400px;
+    display: inline-block;
+}
+#product{
+    background: url(../images/bg.jpg);
+    padding: 4% 0px;
+}
+.top_all {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.top_all h3 {
+    border-bottom: 3px solid #0083c7;
+    font-size: 28px;
+    color: #333333;
+    width: 120px;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    overflow: hidden;
+    margin: auto;
+}
+.top_all span {
+    font-family: AvantGardeBook;
+    color: #afafaf;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.top_all:after {
+    content: url(../images/you.png);
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
+}
+.top_all:before {
+    content: url(../images/zuo.png);
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+}
+#product .fadeInLeft>div{
+    text-align: center;
+}
+#product .fadeInLeft>div img{
+    margin-bottom: 10px;
+    width:250px;
+}
+#product .fadeInRight>div{
+    text-align: center;
+    margin: 0 auto;
+}
+/*introduction*/
+#introduction{
+    background: #f8f8f8;
+    padding: 40px 0;
+    text-align: center;
+    background: #f6f6f6;
+}
+
+#introduction .span_y {
+    font-family: FuturaCondensedNormal;
+    font-size: 34px;
+    width: 98%;
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+}
+#introduction  .span_z {
+    font-size: 24px;
+    line-height: 24px;
+    height: 24px;
+    width: 98%;
+    overflow: hidden;
+}
+#introduction p {
+    line-height: 24px;
+    height: 48px;
+    overflow: hidden;
+    width: 98%;
+    margin: 30px auto;
+}
+#introduction .more {
+    width: 160px;
+    height: 36px;
+    background: #0083c7;
+    display: block;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+#introduction .more:hover {
+    background: #fe9d00;
+}
+
+/*news*/
+#news{
+    background: url("../images/home-bg.jpg");
+}
+.home_news {
+    padding: 3% 0px 1%;
+}
+.home_news .top_all {
+    margin-bottom: 3%;
+}
+.home_news .news_com {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.home_news .news_com .n_left .imgd {
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.home_news .news_com .n_left .imgd img {
+    transition: 0.3s;
+}
+.home_news .news_com .n_left .imgd img:hover {
+    transform: scale(1.1);
+}
+.home_news .news_com .n_left h4 {
+    color: #333333;
+    font-size: 18px;
+    line-height: 30px;
+    height: 30px;
+    overflow: hidden;
+    width: 100%;
+}
+.home_news .news_com .n_left h4 a:hover {
+    color: #0083c7;
+}
+.home_news .news_com .n_left p {
+    font-size: 14px;
+    max-height: 80px;
+    color: #666;
+    line-height: 20px;
+    margin: 10px 0px;
+    overflow: hidden;
+}
+.home_news .news_com .n_left .more {
+    width: 160px;
+    height: 36px;
+    background: #0083c7;
+    display: block;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.home_news .news_com .n_left .more:hover {
+    background: #fe9d00;
+}
+.home_news .news_com .n_right ul li {
+    border-bottom: 1px solid #ededed;
+    list-style: none;
+}
+.home_news .news_com .n_right ul li .ri {
+    width: -6%;
+    float: left;
+    font-family: AvantGardeITCbyBT-Book;
+    color: #a4a4a4;
+    font-weight: 500;
+
+}
+.home_news .news_com .n_right ul li .ri i {
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 700;
+    height: 48px;
+    line-height: 48px;
+    width: 98%;
+    margin-bottom: 3px;
+}
+.home_news .news_com .n_right ul li .ri time {
+    font-size: 17px;
+    width: 98%;
+
+    height: 20px;
+    line-height: 20px;
+
+}
+.home_news .news_com .n_right ul li .wen_nei {
+    width: 80%;
+    float: right;
+}
+.home_news .news_com .n_right ul li .wen_nei h4 {
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+    color: #333333;
+    margin-bottom: 6px;
+    overflow: hidden;
+    width: 100%;
+}
+.home_news .news_com .n_right ul li .wen_nei p {
+    color: #666;
+    font-size: 12px;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.home_news .news_com .n_right ul li:last-child {
+    border-bottom: none;
+}
+.home_news .news_com .n_right ul li:hover .wen_nei h4 {
+    color: #0083c7;
+}
+/*contact*/
+#contact{
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px ;
+}
